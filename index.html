@@ -1098,7 +1098,33 @@ footer {
       <div class="footer-col">
         <h4>The Society</h4>
         <ul>
-          <li>About Us</li>
+             <li id="about-us-toggle" onclick="toggleAboutUs()" style="cursor:pointer; user-select:none; display:flex; align-items:center; gap:6px;">
+            About Us <span id="about-us-arrow" style="font-size:0.65rem; transition:transform 0.25s; display:inline-block;">▼</span>
+          </li>
+          <li id="about-us-members" style="display:none; padding: 0; cursor:default;">
+            <ul style="list-style:none; margin-top:6px; border-top: 1px solid rgba(255,255,255,0.08); padding-top:10px;">
+              <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.06); cursor:default;">
+                <span style="display:block; color:rgba(255,255,255,0.85); font-size:0.85rem; font-weight:500;">Sarantos Georgopoulos</span>
+                <span style="display:block; color:rgba(255,255,255,0.4); font-size:0.72rem; margin-top:1px;">Primary Representative</span>
+                <a href="mailto:sarantosg1@gmail.com" style="display:block; color:var(--gold-lt); font-size:0.72rem; text-decoration:none; margin-top:1px;">sarantosg1@gmail.com</a>
+              </li>
+              <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.06); cursor:default;">
+                <span style="display:block; color:rgba(255,255,255,0.85); font-size:0.85rem; font-weight:500;">Vicki Grafas</span>
+                <span style="display:block; color:rgba(255,255,255,0.4); font-size:0.72rem; margin-top:1px;">Primary Representative</span>
+                <a href="mailto:agapi58@hotmail.com" style="display:block; color:var(--gold-lt); font-size:0.72rem; text-decoration:none; margin-top:1px;">agapi58@hotmail.com</a>
+              </li>
+              <li style="padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.06); cursor:default;">
+                <span style="display:block; color:rgba(255,255,255,0.85); font-size:0.85rem; font-weight:500;">George Mantzouranis</span>
+                <span style="display:block; color:rgba(255,255,255,0.4); font-size:0.72rem; margin-top:1px;">Alternate Representative</span>
+                <a href="mailto:gmantzou@msn.com" style="display:block; color:var(--gold-lt); font-size:0.72rem; text-decoration:none; margin-top:1px;">gmantzou@msn.com</a>
+              </li>
+              <li style="padding:6px 0; cursor:default;">
+                <span style="display:block; color:rgba(255,255,255,0.85); font-size:0.85rem; font-weight:500;">Sophocles Grafas</span>
+                <span style="display:block; color:rgba(255,255,255,0.4); font-size:0.72rem; margin-top:1px;">Alternate Representative</span>
+                <a href="mailto:sophoclesg@gmail.com" style="display:block; color:var(--gold-lt); font-size:0.72rem; text-decoration:none; margin-top:1px;">sophoclesg@gmail.com</a>
+              </li>
+            </ul>
+          </li>
           <li>Membership</li>
           <li>Contact</li>
           <li>The Hellenic Center</li>
